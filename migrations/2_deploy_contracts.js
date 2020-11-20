@@ -2,5 +2,5 @@
 const RockPaperScissor = artifacts.require("RockPaperScissor");
 
 module.exports = function(deployer) {
-  deployer.deploy(RockPaperScissor);
+  deployer.deploy(RockPaperScissor,5);
 };

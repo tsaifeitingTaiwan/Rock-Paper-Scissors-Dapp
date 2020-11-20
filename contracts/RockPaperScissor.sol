@@ -10,7 +10,7 @@ contract RockPaperScissor {
     uint  price;
     uint  zotauanswer;
     address payable public winner;
-    
+ 
     enum State {Start , end}
     enum Gesture {scissors , rock, paper}
     State public state ;
